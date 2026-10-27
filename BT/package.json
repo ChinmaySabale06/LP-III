@@ -1,0 +1,31 @@
+{
+  "name": "mental-health-records-dapp",
+  "version": "1.0.0",
+  "description": "Blockchain-based Decentralized Application (DApp) for Mental Health Record Management",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "npm run dev --prefix frontend"
+  },
+  "keywords": [
+    "solidity",
+    "dapp",
+    "hardhat",
+    "react",
+    "mental-health",
+    "blockchain",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^18.0.8",
+    "hardhat": "^2.29.1"
+  }
+}

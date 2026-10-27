@@ -1,0 +1,14 @@
+Validation accuracy: 0.832
+
+Classification report:
+                 precision    recall  f1-score   support
+
+Did not survive       0.88      0.85      0.86       110
+       Survived       0.77      0.81      0.79        69
+
+       accuracy                           0.83       179
+      macro avg       0.82      0.83      0.82       179
+   weighted avg       0.83      0.83      0.83       179
+
+Confusion matrix (rows=actual, columns=predicted):
+[[93, 17], [13, 56]]

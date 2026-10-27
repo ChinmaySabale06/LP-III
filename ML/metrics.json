@@ -1,0 +1,13 @@
+{
+  "validation_accuracy": 0.8324022346368715,
+  "confusion_matrix": [
+    [
+      93,
+      17
+    ],
+    [
+      13,
+      56
+    ]
+  ]
+}
